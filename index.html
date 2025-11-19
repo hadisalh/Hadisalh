@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>آية ترشدك</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Lateef:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      @font-face {
+        font-family: 'UthmanicHafs';
+        src: url('https://fonts.qurancomplex.gov.sa/wp-content/uploads/2021/04/KFGQPC-Uthman-Taha-Naskh-Regular.woff') format('woff');
+      }
+      body {
+        font-family: 'Amiri', serif;
+      }
+      .font-ui {
+        font-family: 'Lateef', serif;
+      }
+      .quran-text {
+        font-family: 'UthmanicHafs', 'Amiri', serif;
+        font-size: 1.85rem;
+        line-height: 3.5rem;
+        text-align: justify;
+        word-spacing: 0.1rem;
+      }
+      .verse-end-symbol {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.5rem;
+        height: 2.5rem;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-star'%3e%3cpolygon points='12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2'/%3e%3c/svg%3e");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-family: 'Amiri', serif;
+        color: #f59e0b; /* amber-500 */
+        font-size: 0.9rem;
+        font-weight: bold;
+        margin: 0 0.3rem;
+        position: relative;
+        top: 0.2rem;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.27.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-slate-900 h-full">
+    <div id="root" class="h-full"></div>
+  </body>
+</html>
